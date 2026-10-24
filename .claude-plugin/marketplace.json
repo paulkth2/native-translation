@@ -1,0 +1,17 @@
+{
+  "name": "native-translation",
+  "description": "Korean translation and localization quality tools for Claude Code.",
+  "owner": {
+    "name": "Taehyung Kim"
+  },
+  "plugins": [
+    {
+      "name": "native-translation",
+      "source": "./",
+      "description": "Natural Korean translation with placeholder checks, terminology, register, and render-time particles.",
+      "version": "0.7.0",
+      "category": "productivity",
+      "homepage": "https://github.com/paulkth2/native-translation"
+    }
+  ]
+}

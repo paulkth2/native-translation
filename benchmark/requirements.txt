@@ -1,0 +1,25 @@
+# Core harness runs with the Python stdlib only (heuristics, pipeline).
+# Everything below is OPTIONAL — install what you need for each metric / provider.
+
+# --- automatic metrics ---
+sacrebleu[ko]>=2.6.0          # chrF++ (and ko-mecab BLEU if you must)
+unbabel-comet>=2.2.7          # COMET (wmt22-comet-da) + COMET-Kiwi + XCOMET
+kiwipiepy>=0.20               # Korean tokenizer / typo flags (no Java/MeCab needed)
+# python-mecab-ko>=1.2.9      # alt tokenizer with arm64 wheels (don't mix with mecab-python3)
+
+# --- model providers (install only the ones you benchmark) ---
+anthropic>=0.40               # anthropic:* adapter         (ANTHROPIC_API_KEY)
+openai>=1.40                  # openai:* adapter            (OPENAI_API_KEY)
+google-genai>=0.3             # gemini:* adapter            (GEMINI_API_KEY)
+# papago / hyperclova / ollama use urllib (stdlib) — no package needed:
+#   papago:      NCP_CLIENT_ID, NCP_CLIENT_SECRET
+#   hyperclova:  CLOVA_API_KEY  (+ optional CLOVA_HOST)
+#   ollama:      install the local Ollama app (ollama.com) + `ollama pull <model>`; OLLAMA_HOST optional
+#                fully-offline local enforcement: enforce.py --model ollama:<model>
+
+# --- local open-weight models (heavy; GPU recommended) ---
+# torch
+# transformers>=4.44          # hf:ModelSpace/GemmaX2-28-9B-v0.1, hf:tencent/Hunyuan-MT-7B, ...
+
+# NOTE: COMET-Kiwi / XCOMET checkpoints are gated on Hugging Face:
+#   accept the license on the model page, then `huggingface-cli login`.

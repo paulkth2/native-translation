@@ -1,0 +1,40 @@
+source_en	target_ko	flag	notes
+sign in	로그인	term	noun form; verb = 로그인하다
+sign out	로그아웃	term
+log in	로그인	term	alias of "sign in"
+sign up	회원가입	term
+account	계정	term
+settings	설정	term	never abbreviate
+dashboard	대시보드	term	외래어 표기
+workspace	워크스페이스	term	feature name; keep consistent
+notification	알림	term	prefer native 알림 over 노티
+download	다운로드	term	verb = 다운로드하다 / 내려받다 (NOT 다운로드 받다)
+upload	업로드	term	verb = 업로드하다 / 올리다
+save	저장	term	button label
+delete	삭제	term	button label
+cancel	취소	term	button label
+confirm	확인	term	button label (also = OK)
+edit	편집	term
+search	검색	term
+share	공유	term	verb noun = 공유하기
+file	파일	term	counter = 개
+folder	폴더	term
+password	비밀번호	term	prefer 비밀번호 over 패스워드/암호 (pick one house term)
+username	사용자 이름	term
+email	이메일	term
+two-factor authentication	2단계 인증	term	abbr 2FA stays English in parentheses if needed
+subscription	구독	term
+plan	요금제	term	billing context
+free trial	무료 체험	term
+sync	동기화	term	verb = 동기화하다
+offline	오프라인	term
+retry	다시 시도	term
+App Store	App Store	DNT	brand; particle attaches to English token
+Google Play	Google Play	DNT	brand
+Firefox	Firefox	DNT	brand
+Ctrl	Ctrl	DNT	keyboard key
+Enter	Enter	DNT	keyboard key (key, not the verb)
+API	API	DNT	keep acronym
+URL	URL	DNT	keep acronym
+JSON	JSON	DNT	keep acronym
+null	null	DNT	code literal

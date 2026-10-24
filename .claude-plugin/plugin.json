@@ -1,0 +1,10 @@
+{
+  "name": "native-translation",
+  "description": "Natural Korean translation with a configurable chat-completions endpoint, deterministic checks, and targeted repair.",
+  "version": "0.7.0",
+  "author": {
+    "name": "Taehyung Kim"
+  },
+  "homepage": "https://github.com/paulkth2/native-translation",
+  "repository": "https://github.com/paulkth2/native-translation.git"
+}

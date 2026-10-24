@@ -1,0 +1,19 @@
+# local tooling / caches
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+
+# regenerable benchmark artifacts (recreate via demo_make_outputs.py / run.py / score.py)
+benchmark/harness/out/
+report.csv
+
+# korean-translation skill: local files holding the real API key — never commit/push the key
+skills/korean-translation/.api_key
+skills/korean-translation/.hcx_key
+skills/korean-translation/config.local.json
+
+# codexflow run journals (any depth)
+.codexflow/
+**/.codexflow/
+.fable/

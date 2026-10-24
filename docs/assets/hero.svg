@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Native Translation</title><desc id="desc">Korean that reads naturally. Strings that still work.</desc>
+  <rect width="1200" height="320" rx="24" fill="#101827"/>
+  <path d="M850 0V320M950 0V320M1050 0V320M1150 0V320M800 60H1200M800 160H1200M800 260H1200" stroke="#253146" stroke-width="1"/>
+  <circle cx="1050" cy="160" r="103" fill="none" stroke="#ffb3c5" stroke-opacity=".2" stroke-width="2"/>
+  <circle cx="1050" cy="160" r="66" fill="none" stroke="#ffb3c5" stroke-opacity=".45" stroke-width="2"/>
+  <circle cx="1050" cy="160" r="24" fill="#ffb3c5"/>
+  <circle cx="947" cy="160" r="7" fill="#ffb3c5"/><circle cx="1116" cy="160" r="5" fill="#ffb3c5"/>
+  <rect x="56" y="54" width="36" height="4" rx="2" fill="#ffb3c5"/>
+  <text x="56" y="91" fill="#ffb3c5" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">TRANSLATE / CHECK / REFINE</text>
+  <text x="52" y="167" fill="#f5f7fb" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Native Translation</text>
+  <text x="56" y="213" fill="#b9c4d5" font-family="Arial, sans-serif" font-size="23">Korean that reads naturally. Strings that still work.</text>
+  <text x="56" y="277" fill="#76859e" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">PAULKTH2 / NATIVE-TRANSLATION</text>
+</svg>
